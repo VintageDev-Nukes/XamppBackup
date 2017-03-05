@@ -1,0 +1,6 @@
+<Files *.txt>
+   Order Allow,Deny
+   Deny from all
+</Files>
+
+DirectoryIndex index.php?action=inicio index.php index.html

@@ -1,0 +1,10 @@
+/* KillVote || date: 27/06/2013 || version: 1.0b || @drvymonkey (drvy.net) */
+
+.killvote {position:relative; max-width:144px; height:24px; cursor:pointer;}
+.killvote div {height:24px; position:absolute; background:url('vote.png') repeat-x;
+-webkit-transition: width 0.1s; -moz-transition: width 0.1s; -ms-transition: width 0.1s;
+-o-transition: width 0.1s; transition: width 0.1s;}
+.killvote p {display:none;}
+.killvote_now {background-position:-0px -0px; width:100%;}
+.killvote_voted {background-position:-0px -60px !important;}
+.killvote_uvote {background-position:-0px -30px !important; display:none; cursor:pointer;}
